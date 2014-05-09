@@ -21,4 +21,4 @@
 //= require_tree .
 
 // for more details see: http://emberjs.com/guides/application/
-App = Ember.Application.create()
+App = Ember.Application.create();
