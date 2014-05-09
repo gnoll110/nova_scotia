@@ -1,4 +1,4 @@
 App.Post = DS.Model.extend(
-  title: DS.attr("String")
-  body: DS.attr("String")
+  title: DS.attr("string")
+  body: DS.attr("string")
 )
