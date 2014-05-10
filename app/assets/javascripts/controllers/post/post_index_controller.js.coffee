@@ -3,4 +3,8 @@ App.PostIndexController = Ember.ObjectController.extend(actions:
     post.destroyRecord()
     @transitionToRoute "posts"
     return
+
+  edit: () ->
+    @transitionToRoute "post.edit"
+    return    
 )
