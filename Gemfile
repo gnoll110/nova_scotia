@@ -47,3 +47,7 @@ end
 gem "active_model_serializers"
 gem "ember-rails", "~>0.14"
 gem "ember-source", "~>1.1"
+
+group :development, :test do
+ gem "qunit-rails"
+end
