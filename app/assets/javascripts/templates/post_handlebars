@@ -2,4 +2,12 @@
 
 <div class="post-body">{{body}}</div>
 
+<div class="comments">
+  {{#each comment in comments}}
+    <p>{{"comment.body"}}</p>
+  {{else}}
+    <p>This post has no comments.</p>
+  {{/each}}
+</div>
+
 {{outlet}}
