@@ -5,3 +5,5 @@ App.Router.map ()->
     @route "new"
     @resource "post", path: ":post_id", ->
       @route "edit"
+      @resource "comments", ->
+        @route "new"

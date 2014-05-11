@@ -7,4 +7,8 @@ App.PostIndexController = Ember.ObjectController.extend(actions:
   edit: () ->
     @transitionToRoute "post.edit"
     return    
+
+  addComment: () ->
+    @transitionToRoute "comments.new"
+    return    
 )
